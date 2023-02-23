@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.5.0'
   
   s.subspec "Core" do |ss|
-    ss.source_files  = "Source/Charts/**/*.swift"
+    ss.source_files  = "Source/UICharts/**/*.swift"
     ss.dependency 'SwiftAlgorithms', '~> 1.0'
   end
 end
